@@ -1,84 +1,28 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Karmona AI</title>
-  <style>
-    body {
-      font-family: Arial;
-      margin: 0;
-      background: #0f172a;
-      color: white;
-      text-align: center;
-    }
-
-    .hero {
-      padding: 60px;
-      background: linear-gradient(135deg,#1e3a8a,#9333ea);
-    }
-
-    .btn {
-      padding: 10px 20px;
-      margin: 10px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    .agents {
-      padding: 40px;
-    }
-
-    .card {
-      background: #1e293b;
-      margin: 15px;
-      padding: 20px;
-      border-radius: 10px;
-      display: inline-block;
-      width: 250px;
-    }
-
-    iframe {
-      border-radius: 10px;
-      border: none;
-    }
-
-    footer {
-      margin-top: 30px;
-      padding: 20px;
-      background: #020617;
-    }
-  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<body class="bg-black text-white">
 
-<body>
+<header class="flex justify-between p-6">
+  <img src="logo.png" class="h-10">
+  <nav class="space-x-4">
+    <a href="index.html">Home</a>
+    <a href="agents.html">Agents</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-<!-- HERO -->
-<div class="hero">
-  <h1>Karmona AI</h1>
-  <p>Hire Smart AI Agents for Your Business 🚀</p>
-</div>
-
-<!-- AGENTS -->
-<div class="agents">
-  <h2>Our AI Agents</h2>
-
-  <div class="card">
-    <h3>Support Agent</h3>
-    <p>Handles customer queries 24/7</p>
-    <a href="support.html"><button class="btn">Use</button></a>
-  </div>
-
-  <div class="card">
-    <h3>Content Agent</h3>
-    <p>Creates social media content</p>
-    <a href="content.html"><button class="btn">Use</button></a>
-  </div>
-
-</div>
-
-<footer>
-  <p>Contact: yournumber | your@email.com</p>
-</footer>
+<section class="text-center py-20">
+  <h1 class="text-5xl font-bold">Hire AI Agents to Automate Your Business</h1>
+  <p class="text-gray-400 mt-4">Sales, Support, Marketing — Done by AI</p>
+  <a href="agents.html" class="bg-blue-500 px-6 py-3 rounded mt-6 inline-block">Hire an Agent</a>
+</section>
 
 </body>
 </html>
